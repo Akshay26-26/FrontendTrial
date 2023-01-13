@@ -12,7 +12,7 @@
       <div id="theCard">
 
         <div id="formBox1" class="formBox">
-          <div class="introText1">We are the Lotus team</div>
+          <div class="introText1">Atleast We are not on the Lotus team</div>
           <div class="teamDiv">
             <button class="bn37" id="createTeamBtn">Create Meeting</button>
           </div>
@@ -22,28 +22,29 @@
         </div>
 
         <div id="formBox2" class="formBox login-box">
-            <button class="backButton" id="">Back</button>
+          <button class="backButton">Back</button>
           <h2>Create Meeting</h2>
-          <form>
+
+          <form id="create-form">
             <div class="user-box">
-              <input type="text" name="" required="" />
+              <input type="text" name="userName" required="true" />
               <label>Name</label>
             </div>
             <div class="user-box">
-              <input type="text" name="" required="" />
+              <input type="text" name="meetingName" required="true" />
               <label>Meeting Name</label> 
             </div>
             <div class="radio-btns">
               <div>
-                <input type="radio" id="html" name="fav_language" value="HTML" checked>
-                <label for="html">HTML</label>
+                <input type="radio" id="systemAudio" name="micSetting" value="systemAudio" checked>
+                <label for="systemAudio">System Audio</label>
               </div>
               <div>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label>
+                <input type="radio" id="mic" name="micSetting" value="mic">
+                <label for="mic">Mic</label>
               </div>
             </div>
-            <a href="#">
+            <a href="#" id="createMeeting">
               <span></span>
               <span></span>
               <span></span>
@@ -56,16 +57,16 @@
         <div class="login-box formBox" id="formBox3">
             <button class="backButton" id="">Back</button>
           <h2>Join Meeting</h2>
-          <form>
+          <form id="join-form">
             <div class="user-box">
-              <input type="text" name="" required="" />
+              <input type="text" name="userName" required="true" />
               <label>Name</label>
             </div>
             <div class="user-box">
-              <input type="text" name="" required="" />
+              <input type="text" name="meetingId" required="true" />
               <label>Meeting ID</label>
             </div>
-            <a herf="#">
+            <a herf="#" id='joinMeeting'>
               <span></span>
               <span></span>
               <span></span>
@@ -76,7 +77,7 @@
         </div>
 
         <div id="logoBox">
-          <img src="/images/logo voice (1).png" alt="">
+          <img src="./images/logo voice (1).png" alt="">
         </div>
       </div>
     </div>

@@ -34,6 +34,17 @@ body{
   position: relative;
   z-index: 10;
   background-color: #1d5c69;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#createTeamBtn{
+  margin-top: 70px;
+}
+
+#joinTeamBtn{
+  margin-top: 80px;
 }
 
 #formBox2{
@@ -51,7 +62,7 @@ body{
 
 #logoBox{
   background-color: cyan;
-  background: url('/images/milad-fakurian-Fw6QxwvSqTQ-unsplash.jpg');
+  background: url('./images/milad-fakurian-Fw6QxwvSqTQ-unsplash.jpg');
   background-size: cover;
   width: 450px;
   height: 450px;
@@ -102,21 +113,19 @@ Styling the FromBoxes
 }
 
 
-
 /*button-89*/
 #createTeamBtn{
   padding: 1rem 2.1rem;
-  margin-top: 40px;
   font-weight: 600;
   font-size: 25px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.5);
 }
 
 #joinTeamBtn{
-  margin-top: 70px;
-
   padding: 1rem 2rem;
   font-weight: 600;
   font-size: 22px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.45);
 }
 
 .bn37 {
@@ -197,8 +206,9 @@ Styling the FromBoxes
   }
   
   .login-box h2 {
-    margin: 0 0 3px;
-    padding: 0;
+    margin: 3px;
+    margin-bottom: 14px;
+    padding: 2px;
     color: #fff;
     text-align: center;
   }
