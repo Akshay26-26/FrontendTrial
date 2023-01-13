@@ -38,7 +38,6 @@ backBtn2.addEventListener('click', (e)=>{
     formBox2.style.zIndex='1';
     formBox3.style.zIndex='1';
     formBox1.style.zIndex='10';
-    console.log('f')
 })
 
 let backBtn3 = formBox3.getElementsByClassName('backButton')[0]
@@ -47,4 +46,3 @@ backBtn3.addEventListener('click', (e)=>{
     formBox3.style.zIndex='1';
     formBox1.style.zIndex='10';
 })
-
